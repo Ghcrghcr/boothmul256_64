@@ -25,11 +25,12 @@ module test_bench( );
 reg [255:0]A;
 reg [63:0]B;
 wire [319:0]P;
+wire [320:0]ans;
 
 initial
 begin
-    A=475;
-    B=422;
+    A=256'h7FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF;
+    B=64'h7FFFFFFFFFFFFFFF;
 end
 
 booth_top u_boothtop(
@@ -37,4 +38,5 @@ booth_top u_boothtop(
     .B(B),
     .P(P)
 );
+assign ans = {1'd0,P};
 endmodule

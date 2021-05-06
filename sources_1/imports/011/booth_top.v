@@ -128,8 +128,6 @@ wire [`csa_len-1:0] c_lev61;
 wire [`csa_len-1:0] s_lev71;		//level 7	1..0
 wire [`csa_len-1:0] c_lev71;
 
-wire [`csa_len-1:0] ans;		//level 8
-
 
 
 //level 0
