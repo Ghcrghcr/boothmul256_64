@@ -364,7 +364,7 @@ csa #(`csa_len) csa_lev51(
 csa #(`csa_len) csa_lev61(
 	.op1( s_lev51      ),
 	.op2( c_lev51 << 1 ),
-	.op3( s_lev42      ),		//c_lev25
+	.op3( c_lev42 << 1 ),		//c_lev25
 	.S	( s_lev61      ),
 	.C	( c_lev61      )
 );

@@ -30,7 +30,7 @@ wire [320:0]ans;
 initial
 begin
     A=256'h89375212b2c2846546df998d06b97b0db1f056638484d609c0895e8112153524;
-    B=64'h06d7cd0d00f3e301;
+    B=64'h1e8dcd3d3b23f176;
 end
 
 booth_top u_boothtop(
