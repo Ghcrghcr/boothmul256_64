@@ -1,7 +1,4 @@
-//Date		: 2020/05/26
-//Author	: zhishangtanxin 
-//Function	: 
-//read more, please refer to wechat public account "zhishangtanxin"
+
 `define csa_len 320
 module booth_top#(
 	parameter a_len = 256,				//256 * 64

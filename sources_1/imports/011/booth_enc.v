@@ -1,7 +1,4 @@
-//Date		: 2020/05/26
-//Author	: zhishangtanxin 
-//Function	: 
-//read more, please refer to wechat public account "zhishangtanxin"
+
 module booth_enc(
 	input [2:0] code,
 	output neg,

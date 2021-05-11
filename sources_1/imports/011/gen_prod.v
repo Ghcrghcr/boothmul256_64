@@ -1,7 +1,4 @@
-//Date		: 2020/05/26
-//Author	: zhishangtanxin 
-//Function	: 
-//read more, please refer to wechat public account "zhishangtanxin"
+
 module gen_prod #(
 	parameter a_len = 256,
 	parameter prod_len = 320

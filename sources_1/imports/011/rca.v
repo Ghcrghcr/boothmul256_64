@@ -1,7 +1,4 @@
-//Date		: 2020/05/26
-//Author	: zhishangtanxin 
-//Function	: 
-//read more, please refer to wechat public account "zhishangtanxin"
+
 module rca #(width=16) (
     input  [width-1:0] op1,
     input  [width-1:0] op2,
